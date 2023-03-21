@@ -1,0 +1,407 @@
+body{
+    margin:0px;
+    background-color:aliceblue;
+}
+/*header*/
+header{
+    height: 100px;
+    /* border: 5px solid hotpink; */
+}
+#user{
+    text-align:center;
+    float:left;
+    margin-top:1%;
+    position:absolute;
+}
+/*search bar section*/
+#search{
+    height:35px;
+    width:55%;
+    /* border:5px solid red; */
+    position:absolute;
+    left:20%;
+    top:43px;
+}
+#search select{
+    height:100%;
+    width:100%;
+    font-size:20px;
+}
+.img{
+    height:50px;
+    width:50px;
+    float:left;
+    border-radius:50%;
+}
+.img1{
+    height:30px;
+    width: 30px;
+    float:right;
+    margin-left:1%
+}
+
+/*types section*/
+#types{
+    /* height:30px; */
+    /* border:5px dotted red; */
+    background-color: aliceblue;
+    width:100%;
+    
+}
+#types span{
+    /* margin-left:9%; */
+    width:100%; 
+    float:left
+}
+.kinds{
+    display:inline-block;
+     /* margin-left:11%; */
+     width:14.28%;
+}
+
+.img2{
+    height:25px;
+    width:30%;
+    /* margin-left:2%; */
+    border-radius:50%;
+    float:left
+}
+.img3{
+    height:20px;
+    width:25%;
+    /* margin-left:2%; */
+    border-radius:50%;
+    float:left
+}
+/*category section*/
+.categories{
+    /* height:100px; */
+    /* border:5px dashed grey; */
+    background-size:70px;
+    width:100%;
+    margin-bottom:2%;
+}
+.cat{
+    display:inline-block;
+    margin-top:1%;
+    width:7.14%;
+}
+.categories img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    /* margin:1%;  */
+    position:relative;
+    top:10px;
+    left:5px
+}
+.categories span{
+    width:100%;
+    position:relative;
+    top:25px;
+    /* left:-50px; */
+}
+.span{
+    width:100%;
+    /* position:relative;
+    top:25px;
+    left:-50px; */
+    margin-left:14.28%;
+}
+.span1{
+    width:100%;
+    /* position:relative;
+    top:25px;
+    left:-30px; */
+    margin-left:8.33%;
+}
+.span3{
+    width:100%;
+    margin-left:24%;
+}
+/*offer section*/
+.offer{
+    height:200px;
+    width:50%;
+    margin-top:1%;
+    float:left;
+}
+#offer img{
+    height:100%;
+    width:100%;
+    border-radius:5%;
+}
+/*offer image section*/
+#image{
+    height:300px;
+    width:100%;
+    /* border:5px groove black; */
+    background-size:100% 100px ;
+}
+/*rocket offer*/
+#sales{
+    /* height:300px; */
+    width:100%;
+    /* border:5px solid brown; */
+    font-size:30px;
+    font-weight:bold;
+    display:inline-block;
+    margin-bottom:2%;
+    margin-top: 15%;
+}
+#heading{
+    width:100%;
+}
+.block{
+    height:250px;
+    width:250px;
+    /* border:5px solid red; */
+    font-size:20px;
+    text-align:center;
+    display:inline-block;
+    margin-left:6.25%;
+    margin-top:1%;
+    box-shadow:13px 12px 5px grey;
+}
+.block:hover{
+    transform:scale(1.1)
+}
+.block img{
+    height:80%;
+    width:100%;
+}
+.block p{
+    font-size:10px;
+    background-color:aqua
+}
+/*footer section*/
+footer{
+    height:500px;
+    width:100%;
+    /* border:5px dashed yellow; */
+}
+.footheading{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.foot{
+    height:300px;
+    width:15%;
+    /* border:5px solid red; */
+    margin-left:9%;
+    margin-top:2%;
+    float:left;
+}
+#footemail{
+    height:20px;
+    width:150px;
+    border:1px solid black;
+    margin:3%;
+}
+#prime{
+    height:20px;
+    width:100px;
+    /* border:5px solid blue; */
+    background-color:black;
+    color:white;
+    margin:3%
+}
+.footimg{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin:3%;
+}
+#rights{
+        height:50px;
+        width:20%;
+        /* border:5px solid red; */
+        float:left;
+    
+}
+#pay{
+        height:50px;
+        width:50%;
+        /* border:5px solid red; */
+        float:right;
+}
+.credit{
+    height:100%;
+    width:10%;
+    margin-left:5%;
+}
+@media screen and (max-width:1500px){
+    .cat{
+        margin-left:0%;
+        margin-bottom:0%;
+    }
+}
+@media screen and (max-width:1331px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:17%;
+    }
+}
+@media screen and (max-width:1300px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:18%;
+    }
+}
+@media screen and (max-width:1227px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:18%;
+    }
+}
+@media screen and (max-width:1079px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:21%;
+    }
+}
+@media screen and (max-width:1060px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:21%;
+    }
+}
+@media screen and (max-width:1024px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:22%;
+    }
+}
+@media screen and (max-width:1010px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:22%;
+    }
+}
+@media screen and (max-width:984px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:23%;
+    }
+}
+@media screen and (max-width:850px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:26%;
+    }
+}
+@media screen and (max-width:815px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:28%;
+    }
+}
+@media screen and (max-width:800px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:30%;
+    }
+}
+@media screen and (max-width:730px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:31%;
+    }
+}
+@media screen and (max-width:616px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:36%;
+    }
+}
+@media screen and (max-width:580px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:38%;
+    }
+}
+@media screen and (max-width:578px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:38%;
+    }
+}
+@media screen and (max-width:564px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:38%;
+    }
+    #rights{
+        margin-top:20%;
+    }
+}
+@media screen and (max-width:548px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:2%;
+    }
+    #sales{
+        margin-top:39%;
+    }
+}
+@media screen and (max-width:500px){
+    .cat{
+        margin-left:6%;
+        margin-bottom:3%;
+    }
+    #sales{
+        margin-top:44%;
+    }
+    #rights{
+        margin-top:23%;
+    }
+}
