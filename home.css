@@ -519,7 +519,7 @@ footer{
         margin-top:10%;
     }
     #coupon{
-        margin-top: -270%;
+        margin-top: -216%;
         margin-left: 14%;
     }
 }
@@ -658,15 +658,11 @@ footer{
         margin-top:23%;
     }
     #coupon{
-        margin-top:-650%;
+        margin-top:-390%;
         margin-left:0%;
     }
     footer{
         margin-top:22%;
-    }
-    #coupon{
-        margin-top:-580%;
-        margin-left:0%;
     }
 }
 @media screen and (max-width:580px){
