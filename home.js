@@ -44,10 +44,10 @@ function validateemail(){
     }
     else{
         if(mail.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)/.([com])$") == null ){
-            eout.innerText = "Type valid ID"
+            eout.innerText = ""
         }
         else{
-            eout.innerText = ""
+            eout.innerText = "Type valid ID"
         }
     }
 }
@@ -61,14 +61,3 @@ function logout(){
     document.getElementById('main').style.visibility = '1'
 }
 
-// const validatepwd = () => {
-//     let pwd = document.getElementById('pwd');
-//     let pout = document.getElementById('pout');
-
-//     if(pwd.length ==8){
-//         pout.innerText = "Length of Password must be 8"
-//     }
-//     else{
-//         pout.innerText = ""
-//     }
-// }
