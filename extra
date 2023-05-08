@@ -59,3 +59,88 @@
     <span>kitchen</span>
     <span>healthcare</span>
 </div>
+ <!--ROCKET offer secction-->
+ <div id="sales">
+    <div id="heading">
+        MEESHO ROCKET DEALS
+        <div class="bar"></div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="kurti1.jpg" alt="kurti">
+            <p style="background-color:aqua">min 10% off</p>
+            <span>kurtas</span>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="saree1.jpg" alt="saree">
+            <p style="background-color:aqua">min 10% off</p>
+            <span>Saree</span>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="westerrn1.jpg" alt="women western">
+            <p style="background-color:aqua">min 10% off</p>
+            <span>Women Western</span>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="jwellery1.jpg" alt="jwellery">
+            <p>min 10% off</p>
+            <span>Jwellery</span>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="make up.jpg" alt="makeup">
+            <p style="background-color:aqua">min 10% off</p>
+            <span>make up</span>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="kidsclothing.webp" alt="kidsclothing">
+            <p style="background-color:aqua">min 10% off</p>
+            <span>Kids clothing</span>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="shirts and tshirts.webp" alt="shirts">
+            <p style="background-color:aqua">min 10% off</p>
+            <span>Shirts & Tshirts</span>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="trousers.jpg" alt="trousers">
+            <p>min 10% off</p>
+            <span>Trousers</span>
+        </div>
+    </div>
+</div>
+<hr>
+<!--offer section-->
+<div>
+<div>
+     <img src="offer1.jpeg" alt="offer" class="offer">
+</div>
+<div>
+    <img src="offer2.jpeg" alt="offer" class="offer">
+</div>
+</div>
+<div id="image">
+     <img src="offer.jpeg" alt="offer" id="image">
+</div>
+
+<div id="coupon">
+    <button onClick="closecoupon()">&times;</button>
+    <div >
+        <video autoplay loop muted name="media" class="video">
+            <source src="videoplayback.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>

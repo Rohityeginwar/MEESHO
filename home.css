@@ -1,221 +1,241 @@
 body{
-    margin:0px;
-    background-color:aliceblue;
+    z-index:1;
 }
-.changemode{
-    background-color:pink;
-}
-.changemode #types{
-    background-color:pink;
-}
-
 .mode{
-    font-size:100px;
-    float:right;
-    position:relative;
-    top: 122px;
-    left: -32px;
-    cursor: pointer;
+    background-color:black;
+    color:white;
+    z-index:1;
 }
-.main{
-    height:100%;
+#main{
     width:100%;
+    height:100%;
 }
-#coupon{
-    height: 350px;
-    width: 700px;
-    position: absolute;
-    margin-left: 28%;
-    margin-top: -112%;
-    background-color: transparent;
-    visibility:hidden;
-    z-index:100
-}
-button{
-    position:relative;
-    left:8px;
-    top: -7px;
-}
-/*header*/
 header{
-    height: 100px;
-    /* border: 5px solid hotpink; */
+    /* border:5px solid red; */
+    width:100%;
+    height:65px;
+    background-color:black;
 }
-
-.user{
-    font-size:50px;
+.use{
+    /* border:5px solid red; */
+    height:60px;
+    width:150px;
+    float:left;
+    margin-left:0.5%;
+    margin-top:0%;
+    color:white;
+}
+#user{
+    height:50px;
+    width:50px;
+    margin-left:5.5%;
+    margin-top:4%;
+    float:left;
+    border-radius:50%;
+}
+b{
+    position:relative;
+    top: 14px;
+    left: 8px;
+}
+#searchbar{
+    float: left;
+    margin-left: 15%;
+    margin-top: 1%;
+    width: 36%;
+    height: 36px;
 }
 .logo{
-    float:right;
-    font-size:30px;
-    margin-top:1%;
-    margin-left:1%;
-}
-/*search bar section*/
-#search{
+    border:1px solid black;
     height:35px;
-    width:55%;
-    /* border:5px solid red; */
-    position:absolute;
-    left:20%;
-    top:43px;
-}
-#search select{
-    height:100%;
-    width:100%;
-    font-size:20px;
-}
-.img{
-    height:50px;
-    width:50px;
+    width:108px;
     float:left;
-    border-radius:50%;
+    margin-top:1%;
+    background-color:white;
 }
-.img1{
-    height:30px;
-    width: 30px;
-    float:right;
-    margin-left:1%
-}
-
-/*types section*/
-#types{
-    /* height:30px; */
-    /* border:5px dotted red; */
-    background-color: aliceblue;
-    width:100%;
-    
-}
-#types span{
-    /* margin-left:9%; */
-    width:100%; 
-    float:left
-}
-.kinds{
-    display:inline-block;
-     /* margin-left:11%; */
-     width:14.28%;
-}
-
-.img2{
+.large{
+    float:left;
+    margin-left:20px;
+    margin-top:4%;
     height:25px;
-    width:30%;
-    /* margin-left:2%; */
-    border-radius:50%;
-    float:left
+    width:25px;
 }
-.img3{
-    height:20px;
-    width:25%;
-    /* margin-left:2%; */
-    border-radius:50%;
-    float:left
-}
-/*category section*/
-.categories{
-    /* height:100px; */
-    /* border:5px dashed grey; */
-    background-size:70px;
-    width:100%;
-    margin-bottom:2%;
-}
-.cat{
-    display:inline-block;
+#like{
+    background-color:#0076db;
+    /* border:5px solid red; */
+    height:36px;
+    width:206px;
+    float:right;
+    margin-right:3%;
     margin-top:1%;
-    width:7.14%;
+    border-radius:50px;
 }
-.categories img{
-    height:50px;
-    width:50px;
-    border-radius:50%;
-    position:relative;
-    top:10px;
-    left:5px
-}
-.categories span{
-    width:100%;
-    position:relative;
-    top:25px;
-}
-.span{
-    width:100%;
-    /* position:relative;
-    top:25px;
-    left:-50px; */
-    margin-left:14.28%;
-}
-.span1{
-    width:100%;
-    /* position:relative;
-    top:25px;
-    left:-30px; */
-    margin-left:8.33%;
-}
-.span3{
-    width:100%;
-    margin-left:24%;
-}
-/*offer section*/
-.offer{
-    height:200px;
-    width:50%;
-    margin-top:1%;
+.icon{
     float:left;
+    height:30px;
+    width:30px;
+    margin-left:15%;
+    margin-top: 2px;
 }
-#offer img{
-    height:100%;
-    width:100%;
-    border-radius:5%;
+.icon1{
+    margin-top: 2px;
+    float:left;
+    height:30px;
+    width:30px;
+    margin-left:15%;
+    border-radius:50%;
 }
-/*offer image section*/
-#image{
+#coupon{
+    z-index:100;
+    width:50%;
+    height:300px;
+    /* border:5px solid black; */
+    margin-left: 25%;
+    margin-top:-35%;
+    position:absolute;
+    visibility:hidden;
+    /* background-color:red; */
+}
+.coupon{
     height:300px;
     width:100%;
-    /* border:5px groove black; */
-    background-size:100% 100px ;
 }
-/*rocket offer*/
-#sales{
-    /* height:300px; */
+#tittle{
     width:100%;
-    /* border:5px solid brown; */
-    font-size:30px;
-    font-weight:bold;
-    display:inline-block;
-    margin-bottom:2%;
-    margin-top: 2%;
+    height:26px;
 }
-#heading{
-    width:100%;
+.mainlogo{
+    height:50px;
+    width:50px;
     float:left;
+    margin-top:-13px;
 }
-.block{
-    height:250px;
-    width:250px;
-    /* border:5px solid red; */
+#messho{
+    float:left;
+    margin-top:-4px;
+    color:red;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign{
+    cursor: pointer;
+    float:right;
+    margin-left:1%;
+    margin-right:2%;
+    font-weight:bold;
     font-size:20px;
-    text-align:center;
-    display:inline-block;
-    margin-left:6.25%;
-    margin-top:1%;
-    box-shadow:13px 12px 5px grey;
+    margin-top:-4px;
 }
-.block:hover{
-    transform:scale(1.1)
+.mode .location{
+    background-color: #41a180;
 }
-.block img{
-    height:80%;
+.location{
+    width:210px;
+    height:40px;
+    float:right;
+    font-size:20px;
+    font-weight:bold;
+    /* background-color: #41a180; */
+    margin-top: -7px;
+}
+#weather-icon{
+    float:right;
+    height:50px;
+    margin-top:-3px;
+}
+#weather-icon img {
+    height:40px;
+    width:40px;
+}
+.wicon{
+    height:50px;
+    width:50px;
+}
+.offer{
+    width:70%;
+    height:300px;
+    margin-left:15%;
+    /* border:5px solid red; */
+}
+.offer1{
     width:100%;
+    height:300px;
 }
-.block p{
-    font-size:10px;
-    background-color:aqua
+.bar{
+    /* margin-top:1%; */
+    height:20px;
+    width:100%;
+    background:linear-gradient(90deg,orange,red,yellow,red,orange,yellow);
+    animation:bar 20s infinite;
+    background-size:250%;
+    position:relative;
+}
+@keyframes bar {
+    0%{
+        background-position:0 0;
+    }
+    100%{
+        background-position:250% 0;
+    }
+}
+.everything{
+    height:50px;
+    width:100%;
+    border:2px solid black;
+    display:flex;
+}
+.all{
+    margin-left:9%;
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.point{
+    height:30px;
+    width:30px;
+    margin-left:2%;
+}
+#location{
+    font-size: 25px;
+    background-color:azure;
+}
+#category{
+    border:2px solid black;
+    height:152px;
+    width:100%;
+    display:flex;
+    overflow-y: scroll;
+}
+.category{
+    border:1px solid black;
+    height:100px;
+    width:100px;
+    margin-top:1%;
+    margin-left:3%;
+    background-color:red;
+}
+.names{
+    margin-left:9px;
+    font-size:20px;
+    font-weight:100;
+}
+.names1 {
+    margin-left:22px;
+    font-size:20px;
+    font-weight:100;
+}
+.names2 {
+    font-size:20px;
+    font-weight:100;
 }
 /*footer section*/
 footer{
     height:500px;
     width:100%;
-    /* border:5px dashed yellow; */
+    border:5px solid black;
+    margin-top:0%;
+    
 }
 .footheading{
     font-size:20px;
@@ -227,7 +247,7 @@ footer{
     width:15%;
     /* border:5px solid red; */
     margin-left:9%;
-    margin-top:15%;
+    margin-top:3%;
     float:left;
 }
 #footemail{
@@ -245,12 +265,15 @@ footer{
     margin:3%
 }
 .footimg{
-    height:30px;
-    width:30px;
-    border-radius:50%;
-    margin:3%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: -25%;
+    margin-right: 35%;
+    float: right;
 }
 #rights{
+    margin-left:1%;
         height:50px;
         width:20%;
         /* border:5px solid red; */
@@ -262,525 +285,300 @@ footer{
         width:50%;
         /* border:5px solid red; */
         float:right;
+        position:relative;
+        left: -45px;
+        top: 65px;
 }
 .credit{
+    float:right;
     height:100%;
     width:10%;
     margin-left:5%;
 }
-@media screen and (max-width:1500px){
-    .cat{
-        margin-left:0%;
-        margin-bottom:0%;
+#log{
+    z-index:100;
+    height: 390px;
+    width:50%;
+    margin-top:-40%;
+    margin-left:25%;
+    background-color:#d0c719;
+    visibility:hidden;
+    position:absolute;
+}
+@media screen and (max-width:1190px){
+    #searchbar{
+        margin-left:8%;
     }
 }
-@media screen and (max-width:1471px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
+@media screen and (max-width:1140px){
+    .all{
+        font-size:22px;
     }
     #coupon{
-        margin-top: -125%;
-        margin-left: 23%;
+        margin-top:-45%;
     }
 }
-@media screen and (max-width:1400px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+@media screen and (max-width:1110px){
+    .foot{
+        width:16%;
     }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
+    #searchbar{
+        margin-left:10%;
     }
-    .bar{
-        position:relative;
-        margin-left:50%
+    #rights{
+        margin-top:0px
+    }
+}
+@media screen and (max-width:1040px){
+    #rights{
+        margin-top:60px;
+    }
+    .all{
+        font-size:20px;
+    }
+    #coupon{
+        margin-top:-45%;
+    }
+    #log{
+        margin-top:-45%;
+    }
+}
+@media screen and (max-width:1028px){
+    #searchbar{
+        margin-left:4%;
+    }
+    #coupon{
+        margin-top:-60%;
+    }
+    #log{
+        margin-top:-60%;
+    }
+}
+@media screen and (max-width:995px){
+    #footemail{
+        margin-left:-12%;
+    }
+    #pay{
+        margin-right:4%;
+    }
+    #searchbar{
+        margin-left:5%;
+    }
+}
+@media screen and (max-width:930px){
+    #pay{
+        width:100%;
+        margin-right:12%
     }
     footer{
-        margin-top:2%;
+        height:600px;
     }
-    #coupon{
-        margin-top: -133%;
-        margin-left: 23%;
+    #rights{
+        margin-top:80px;
     }
-}
-@media screen and (max-width:1348px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
-    }
-    footer{
-        margin-top:3%;
-    }
-    #coupon{
-        margin-top: -165%;
-        margin-left: 23%;
+    #searchbar{
+        margin-left:1%;
     }
 }
-@media screen and (max-width:1336px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
-    }
-    footer{
-        margin-top:4%;
-    }
-    #coupon{
-        margin-top: -165%;
-        margin-left: 23%;
+@media screen and (max-width:915px){
+    .all{
+        font-size:18px;
     }
 }
-@media screen and (max-width:1332px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+@media screen and (max-width:885px){
+    #footemail{
+        margin-left:-18%;
     }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
-    }
-    footer{
-        margin-top:4%;
-    }
-    #coupon{
-        margin-top: -165%;
-        margin-left: 23%;
+    #pay{
+        margin-right:15%;;
     }
 }
-@media screen and (max-width:1300px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+@media screen and (max-width:855px){
+    .foot{
+        overflow:scroll;
+        height:350px;
     }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
+    #pay{
+        margin-top:-51px
     }
-    .bar{
-        position:relative;
-        margin-left:50%
+    #footemail{
+        margin-left:1%;
     }
-    footer{
-        margin-top:5%;
+    .everything{
+        overflow:scroll;
     }
     #coupon{
-        margin-top: -165%;
-        margin-left: 23%;
+        margin-top:-70%;
+    }
+    #log{
+        margin-top:-70%;
     }
 }
-@media screen and (max-width:1227px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
-    }
-    footer{
-        margin-top:6%;
-    }
-    #coupon{
-        margin-top: -165%;
-        margin-left: 23%;
-    }
-}
-@media screen and (max-width:1079px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
-    }
-    footer{
-        margin-top:8%;
-    }
-    #coupon{
-        margin-top: -201%;
-        margin-left: 13%;
-    }
-}
-@media screen and (max-width:1060px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
-    }
-    footer{
-        margin-top:8%;
-    }
-    #coupon{
-        margin-top: -201%;
-        margin-left: 13%;
-    }
-}
-@media screen and (max-width:1024px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:50%
-    }
-    footer{
-        margin-top:8%;
-    }
-    #coupon{
-        margin-top: -201%;
-        margin-left: 13%;
-    }
-}
-@media screen and (max-width:1010px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:23%
-    }
-    footer{
-        margin-top:9%;
-    }
-    #coupon{
-        margin-top: -211%;
-        margin-left: 13%;
-    }
-}
-@media screen and (max-width:984px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:20%
-    }
-    footer{
-        margin-top:10%;
-    }
-    #coupon{
-        margin-top: -216%;
-        margin-left: 14%;
-    }
-}
-@media screen and (max-width:970px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:20%
-    }
-    footer{
-        margin-top:10%;
-    }
-    #coupon{
-        margin-top: -220%;
-        margin-left: 14%;
-    }
-}
-
-@media screen and (max-width:868){
-    #coupon{
-        margin-top:-270%;
+@media screen and (max-width:811px){
+    #searchbar{
         margin-left:0%;
     }
-}
-@media screen and (max-width:850px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:3%
-    }
-    footer{
-        margin-top:12%;
+    .everything{
+        overflow:scroll;
     }
     #coupon{
-        margin-top:-280%;
-        margin-left:0%;
+        margin-top:-70%;
+    }
+    #log{
+        margin-top:-70%;
     }
 }
-@media screen and (max-width:815px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-top:3%;
-        margin-left:3%;
-    }
-    .bar{
-        position:relative;
-        margin-left:3%
-    }
-    footer{
-        margin-top:14%;
+@media screen and (max-width:785px){
+    #searchbar{
+        margin-left:-4%;
     }
     #coupon{
-        margin-top:-300%;
-        margin-left:0%;
+        margin-top:-70%;
+    }
+    #log{
+        margin-top:-70%;
     }
 }
-
-@media screen and (max-width:800px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+@media screen and (max-width:740px){
+    #like{
+        width:175px
     }
-    #sales{
-        margin-top: 5%;
-        margin-left: 10%;
-    }
-    footer{
-        margin-top:16%;
+    .icon{
+        margin-left:10%;
     }
     #coupon{
-        margin-top:-304%;
-        margin-left:0%;
+        margin-top:-70%;
+    }
+    #log{
+        margin-top:-70%;
     }
 }
-@media screen and (max-width:730px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+@media screen and (max-width:690px){
+    #like{
+        width:150px;
     }
-    #sales{
-        margin-top: 5%;
-        margin-left: 10%;
+    .icon{
+        margin-left:7%;
     }
-    footer{
-        margin-top:20%;
+    .footimg{
+        height:20px;
+        width:20px;
+        margin-left:-24%;
     }
     #coupon{
-        margin-top:-340%;
-        margin-left:0%;
+        margin-top:-80%;
+    }
+    #log{
+        margin-top:-80%;
     }
 }
-@media screen and (max-width:616px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+@media screen and (max-width:650px){
+    #like{
+        width:130px;
+        margin-right:1%;
     }
-    #sales{
-        margin-top: 5%;
-        margin-left: 10%;
-    }
-    footer{
-        margin-top:22%;
+    .icon{
+        margin-left:5%;
     }
     #coupon{
-        margin-top:-383%;
-        margin-left:0%;
+        margin-top:-98%;
+    }
+    #log{
+        margin-top:-98%;
+    }
+}
+@media screen and (max-width:615px){
+    #like{
+        margin-right: 1%;
+        width: 125px;
+    }
+    .icon{
+        margin-left:2%;
+    }
+    #coupon{
+        margin-top:-98%;
+    }
+    #log{
+        margin-top:-98%;
     }
 }
 @media screen and (max-width:600px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:3%;
-    }
-    #sales{
-        margin-top: 3%;
-        margin-left: 19%;
-    }
-    #rights{
-        margin-top:23%;
+    #searchbar{
+        margin-left:-6%;
     }
     #coupon{
-        margin-top:-390%;
-        margin-left:0%;
+        margin-top:-98%;
     }
-    footer{
-        margin-top:22%;
+    .sign{
+        font-size:20px;
+        margin-right:1%;
+    }
+    .location{
+        font-size:20px;
+        
     }
 }
 @media screen and (max-width:580px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+    header{
+        height:100px;
     }
-    #sales{
-        margin-top: 5%;
-        margin-left: 10%;
+    #searchbar{
+        margin-top:10%;
     }
-    footer{
-        margin-top:22%;
+    .logo{
+        margin-top:10%;
     }
-    #coupon{
-        margin-top:-600%;
-        margin-left:0%;
+    #like{
+        margin-top:-16%;
+        width:150px
     }
-}
-@media screen and (max-width:578px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+    .icon{
+        margin-left:8%;
     }
-    #sales{
-        margin-top: 6%;
-        margin-left: 10%;
-    }
-    footer{
-        margin-top:22%;
+    .footheading{
+        font-size:12px;
     }
     #coupon{
-        margin-top:-620%;
-        margin-left:0%;
+        margin-top:-98%;
+    }
+    #log{
+        margin-top:-98%;
+    }
+    .sign{
+        font-size:10px;
+        margin-right:1%;
+    }
+    .location{
+        font-size:10px;
+        width:125px;
     }
 }
-@media screen and (max-width:564px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
+@media screen and (max-width:515px){
+    #searchbar{
+        margin-top:12%;
     }
-    #sales{
-        margin-top: 4%;
-        margin-left: 10%;
+    .logo{
+        margin-top:12%;
     }
     #rights{
-        margin-top:20%;
+        margin-left:5%;
+        width:50%;
     }
-    footer{
-        margin-top:22%;
-    }
-    #coupon{
-        margin-top:-608%;
-        margin-left:0%;
-    }
-}
-@media screen and (max-width:548px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:2%;
-    }
-    #sales{
-        margin-left: 10%;
-        margin-top: 7%;
-    }
-    footer{
-        margin-top:22%;
+    #like{
+        margin-top:-18%;
     }
     #coupon{
-        margin-top:-633%;
-        margin-left:0%;
+        margin-top:-98%;
     }
-}
-@media screen and (max-width:500px){
-    .cat{
-        margin-left:6%;
-        margin-bottom:3%;
+    #log{
+        margin-top:-98%;
     }
-    #sales{
-        margin-top: 3%;
-        margin-left: 19%;
+    .sign{
+        font-size:10px;
+        margin-right:1%;
     }
-    #rights{
-        margin-top:23%;
-    }
-    #coupon{
-        margin-top:-684%;
-        margin-left:0%;
-    }
-    footer{
-        margin-top:31%;
-    }
-}
-.video{
-    width:100%;
-    height:100%;
-    position:relative;
-    left:-8px;
-    top: -9px;
-}
-.bar{
-    margin-top:0.5;
-    float:right;
-    height:10px;
-    width:400px;
-    border:5px solid red;
-    background:linear-gradient(90deg,orange,red,yellow,green,red);
-    animation:bar 10s infinite;
-    background-size:200%;
-    position:relative;
-    left:-46%;
-    top:0%;
-}
-@keyframes bar{
-    0%{
-        background-position:0 0;
-    }
-    100%{
-        background-position:200% 0;
+    .location{
+        font-size:10px;
+        width:125px;
     }
 }
