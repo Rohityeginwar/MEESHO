@@ -229,6 +229,168 @@ b{
     font-size:20px;
     font-weight:100;
 }
+#options{
+    /* border:5px solid red; */
+    width:100%;
+    height:300px;
+    margin-top:1%;
+}
+.payment{
+    height:260px;
+    width:25%;
+    /* border:5px solid black; */
+    box-shadow:1px 9px 9px grey;
+    float:left;
+}
+.option{
+    height: 124px;
+    width: 100px;
+    /* border: 5px solid red; */
+    margin-left: 14%;
+    float: left;
+}
+.paying{
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-top: 10%;
+}
+#deals{
+    font-size: 25px;
+    font-weight:bold;
+    margin-left:4%;
+    float:left;
+}
+#off{
+    height:40px;
+    width:110px;
+    float:left;
+    margin-left:8%;
+    margin-top:1%;
+}
+.deal1{
+    font-size: 25px;
+    font-weight:bold;
+    margin-left:3%;
+    width:100%;   
+}
+.deal{
+    height: 95px;
+    width: 95px;
+    float: left;
+    margin-left: 15%;
+    margin-top: 2px;
+}
+#seller{
+    background-image:url(https://images.meesho.com/images/pow/supplyBannerDesktop_1106.webp);
+    height:200px;
+    width:100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.tittle{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:5%;
+}
+.subtittle{
+    color:white;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:7%;
+}
+.text{
+    border-right:1px solid white;
+    float:left;
+    margin-left:5%;
+}
+.subtext{
+    color:white;
+    font-size:20px;
+    margin-left: -20%;
+}
+.travel{
+    height:450px;
+    width:44%;
+    /* border:5px solid red; */
+    float:left;
+    margin-left:5%;
+    margin-bottom:2%;
+    box-shadow: 3px 3px 100px grey;
+}
+.brands{
+    height: 180px;
+    width: 310px;
+    /* border:2px solid black; */
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+.subbrand{
+    height:154px;
+    width:100%;
+    /* border:1px solid red; */
+}
+.more{
+    margin-left:4%;
+    color:rgb(10, 163, 223);
+}
+.seemore{
+    color:rgb(10, 163, 223);
+}
+.frequentsell{
+    height:500px;
+    width:30%;
+    /* border:5px solid red; */
+    float:left;
+    margin-bottom:2%;
+    margin-left:3%;
+    box-shadow: 3px 3px 100px grey;
+}
+
+.frequent{
+    height:200px;
+    width:200px;
+    /* border:2px solid black; */
+    float:left;
+    margin-left:4%;
+    margin-top:2%;
+}
+.sell{
+    height:180px;
+    width:200px;
+}
+.subfrequent{
+    height:160px;
+    width:100%;
+    /* border:5px solid red; */
+}
+#womenfashion{
+    /* border:5px solid red; */
+    height:350px;
+    width:100%;
+    margin-top:2%;
+    box-shadow:0px 0px 20px grey;
+    overflow-y: scroll;
+}
+#text{
+    width:100%;
+    font-size:30px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:4%;
+}
+.fashion{
+    width:155px;
+    height:250px;
+    /* border:5px solid black; */
+    float:left;
+    margin-left:2%;
+}
 /*footer section*/
 footer{
     height:500px;
@@ -305,9 +467,171 @@ footer{
     visibility:hidden;
     position:absolute;
 }
+@media screen and (max-width:1480px){
+    .travel{
+        width:45%;
+    }
+    .deal1{
+        font-size:23px;
+    }
+    .frequent{
+        height:195px;
+        width:195px;
+    }
+    .sell{
+        width:195px;
+    }
+    .fashion{
+        margin-left:20px;
+    }
+}
+@media screen and (max-width:1425px){
+    .frequent{
+        height:190px;
+        width:190px;
+    }
+    .sell{
+        width:190px;
+    }
+    .brands{
+        width:290px;
+    }
+    .fashion{
+        margin-left:15px;
+    }
+}
+@media screen and (max-width:1360px){
+    .frequent{
+        height:180px;
+        width:180px;
+    }
+    .deal1{
+        font-size:20px;
+    }
+    .sell{
+        width:180px;
+    }
+    .brands{
+        width:280px;
+    }
+    .fashion{
+        margin-left:10px;
+    }
+    #off{
+        margin-left:2%;
+    }
+}
+@media screen and (max-width:1305px){
+    .frequent{
+        height:170px;
+        width:170px;
+    }
+    .deal1{
+        font-size:20px;
+    }
+    .sell{
+        width:170px;
+        height:170px;
+    }
+    .brands{
+        width:270px;
+    }
+    .fashion{
+        width: 145px;
+        height: 245px;
+    }
+    #off{
+        width:100px;
+    }
+    .fashion {
+        margin-left: 11px;
+    }
+}
+@media screen and (max-width:1250px){
+    .frequent{
+        height:160px;
+        width:160px;
+    }
+    .deal1{
+        font-size:20px;
+    }
+    .sell{
+        width:160px;
+        height:160px;
+    }
+    .brands{
+        width:260px;
+    }
+    .fashion{
+        width: 140px;
+        height: 240px;
+    }
+    #off{
+        width:80px;
+    }
+}
+@media screen and (max-width:1220px){
+    .frequent{
+        height:150px;
+        width:150px;
+    }
+    .deal1{
+        font-size:20px;
+    }
+    .sell{
+        width:150px;
+        height:150px;
+    }
+    .brands{
+        width:250px;
+    }
+    .fashion{
+        width: 135px;
+        height: 240px;
+    }
+    #off{
+        width:80px;
+    }
+}
 @media screen and (max-width:1190px){
     #searchbar{
         margin-left:8%;
+    }
+}
+@media screen and (max-width:1175px){
+    .frequentsell{
+        margin-left:1%;
+        width:32%;
+        height: 530px;
+    }
+    .frequent{
+        height:150px;
+        width:160px;
+        margin-top: 40px;
+    }
+    .more{
+        margin-left: -20%;
+    }
+    .deal1{
+        font-size:23px;
+    }
+    .sell{
+        width:160px;
+        height:150px;
+        margin-top: 40px;
+    }
+    .brands{
+        width:240px;
+    }
+    .fashion{
+        width:130px;
+    }
+    #off{
+        width:70px;
+        height:39px;
+    }
+    #womenfashion{
+        overflow-y:scroll;
     }
 }
 @media screen and (max-width:1140px){
@@ -328,8 +652,44 @@ footer{
     #rights{
         margin-top:0px
     }
+    .option{
+        margin-left:10%;
+    }
+    .deal1 {
+        font-size: 19px;
+    }
+    #deals{
+        font-size:20px;
+    }
+    .deal{
+        height: 90px;
+        width: 90px;
+    }
+    .frequent{
+        height: 150px;
+        width: 150px;
+    }
+    .sell{
+        height: 150px;
+        width: 150px;
+    }
+    .travel{
+        margin-left:2%;
+        width: 48%;
+        height: 470px;
+    }
+    .brands{
+        margin-top:5%;
+    }
+    #womenfashion{
+        height:600px;
+    }
+    .fashion{
+        margin-left: 84px;
+        margin-top:2%;
+    }
 }
-@media screen and (max-width:1040px){
+@media screen and (max-width:1044px){
     #rights{
         margin-top:60px;
     }
@@ -342,6 +702,29 @@ footer{
     #log{
         margin-top:-45%;
     }
+    .deal {
+        height: 90px;
+        width: 80px;
+    }
+    .frequentsell{
+        height: 570px;
+    }
+    .frequent {
+        height: 140px;
+        width: 140px;
+        margin-top: 70px;
+    }
+    .sell{
+        height: 140px;
+        width: 140px; 
+    }
+    .brands {
+        width: 230px;
+    }
+    .deal {
+        height: 90px;
+        width: 80px;
+    }
 }
 @media screen and (max-width:1028px){
     #searchbar{
@@ -353,6 +736,12 @@ footer{
     #log{
         margin-top:-60%;
     }
+    .brands {
+        width: 220px;
+    }
+    .option {
+        margin-left: 8%;
+    }
 }
 @media screen and (max-width:995px){
     #footemail{
@@ -363,6 +752,58 @@ footer{
     }
     #searchbar{
         margin-left:5%;
+    }
+    .payment{
+        width:49%;
+        margin-top:1%;
+    }
+    #off {
+        width: 145px;
+        height: 39px;
+    }
+    .deal {
+        height: 90px;
+        width: 110px;
+    }
+    .frequentsell{
+        margin-top: 3%;
+    }
+    .frequent {
+        height: 120px;
+        width: 120px;
+        margin-top: 70px;
+    }
+    .sell{
+        height: 120px;
+        width: 120px;
+        margin-top: 70px;
+    }
+    .brands {
+        width: 200px;
+    }
+    .tittle{
+        font-size:30px;
+    }
+    .subtittle{
+        font-size:15px;
+    }
+    .subtext{
+        font-size: 15px;
+        margin-left: -8%;
+    }
+
+}
+@media screen and (max-width:975px){
+    .option {
+        margin-left: 18%;
+    }
+    .brands {
+        width: 220px;
+    }
+}
+@media screen and (max-width:950px){
+    .brands {
+        width: 210px;
     }
 }
 @media screen and (max-width:930px){
@@ -379,10 +820,26 @@ footer{
     #searchbar{
         margin-left:1%;
     }
+    .option {
+        margin-left: 15%;
+    }
+    .paying {
+        height: 90px;
+        width: 100px;
+        float: left;
+        margin-top: 10%;
+    }
+    .brands {
+        width: 198px;
+    }
 }
 @media screen and (max-width:915px){
     .all{
         font-size:18px;
+    }
+    .fashion {
+        margin-left: 60px;
+        margin-top: 2%;
     }
 }
 @media screen and (max-width:885px){
@@ -391,6 +848,9 @@ footer{
     }
     #pay{
         margin-right:15%;;
+    }
+    .everything{
+        overflow:scroll;
     }
 }
 @media screen and (max-width:855px){
@@ -407,11 +867,36 @@ footer{
     .everything{
         overflow:scroll;
     }
+    .all{
+        font-size:17px;
+    }
     #coupon{
         margin-top:-70%;
     }
     #log{
         margin-top:-70%;
+    }
+    .brands {
+        width: 180px;
+    }
+    .frequent {
+        height: 120px;
+        width: 110px;
+        margin-top: 70px;
+    }
+    .brands {
+        width: 190px;
+    }
+    .travel {
+        margin-left: 2%;
+        width: 48%;
+        height: 500px;
+    }
+    .seemore {
+        position: relative;
+        color: rgb(10, 163, 223);
+        top: 5%;
+        left: 4%;
     }
 }
 @media screen and (max-width:811px){
@@ -427,6 +912,10 @@ footer{
     #log{
         margin-top:-70%;
     }
+    .all{
+        font-size:17px;
+        margin-left:8%;
+    }
 }
 @media screen and (max-width:785px){
     #searchbar{
@@ -438,8 +927,29 @@ footer{
     #log{
         margin-top:-70%;
     }
+    .all{
+        font-size:17px;
+        margin-left:8%;
+    }
+    .travel {
+        margin-left: 1%;
+        width: 49%;
+        height: 500px;
+    }
+    .brands {
+        width: 160px;
+        height: 185px;
+        margin-top: 8%;
+    }
+    .more {
+        margin-left: -30%;
+    }
+    .fashion {
+        margin-left: 35px;
+        margin-top: 2%;
+    }
 }
-@media screen and (max-width:740px){
+@media screen and (max-width:745px){
     #like{
         width:175px
     }
@@ -451,6 +961,24 @@ footer{
     }
     #log{
         margin-top:-70%;
+    }
+    .all{
+        font-size:15px;
+        margin-left:8%;
+    }
+    .frequentsell {
+        margin-left: 16%;
+        width: 70%;
+        height: 530px;
+    }
+    .frequent {
+        height: 140px;
+        width: 160px;
+        margin-top: 65px;
+        margin-left: 12%;
+    }
+    .more {
+        margin-left: -11%;
     }
 }
 @media screen and (max-width:690px){
@@ -471,6 +999,33 @@ footer{
     #log{
         margin-top:-80%;
     }
+    .frequentsell{
+        font-size: 11px;
+    }
+    .brands {
+        width: 150px;
+        height: 175px;
+        margin-top: 10%;
+    }
+    .fashion {
+        margin-left: 18px;
+        margin-top: 2%;
+    }
+    .travel {
+        margin-left: 1%;
+        width: 49%;
+        height: 550px;
+    }
+    .seemore {
+        position: relative;
+        color: rgb(10, 163, 223);
+        top: 5%;
+        left: 4%;
+    }
+    #off {
+        width: 135px;
+        height: 39px;
+    }
 }
 @media screen and (max-width:650px){
     #like{
@@ -485,6 +1040,49 @@ footer{
     }
     #log{
         margin-top:-98%;
+    }
+    .all{
+        font-size:17px;
+        margin-left:6%;
+    }
+    #off {
+        width: 120px;
+        height: 39px;
+    }
+    .deal {
+        height: 90px;
+        width: 100px;
+    }
+    .frequentsell {
+        font-size: 20px;
+        margin-left: 6%;
+        width: 90%;
+    }
+    .frequent {
+        height: 175px;
+        width: 200px;
+        margin-top: 65px;
+        margin-left: 10%;
+    }
+    .more {
+        margin-left: -11%;
+        margin-top:1%;
+    }
+    .brands {
+        width: 140px;
+        height: 175px;
+        margin-top: 10%;
+    }
+    .travel {
+        margin-left: 1%;
+        width: 49%;
+        height: 526px;
+    }
+    .seemore {
+        position: relative;
+        color: rgb(10, 163, 223);
+        top: 4%;
+        left: 4%;
     }
 }
 @media screen and (max-width:615px){
@@ -501,6 +1099,27 @@ footer{
     #log{
         margin-top:-98%;
     }
+    .all{
+        font-size:15px;
+        margin-left:6%;
+    }
+    #off {
+        width: 110px;
+        height: 39px;
+    }
+    .brands {
+        width: 130px;
+        height: 155px;
+        margin-top: 16%;
+    }
+    .fashion {
+        margin-left: 9px;
+        margin-top: 2%;
+    }
+    .more {
+        margin-left: -21%;
+        margin-top: 1%;
+    }
 }
 @media screen and (max-width:600px){
     #searchbar{
@@ -516,6 +1135,22 @@ footer{
     .location{
         font-size:20px;
         
+    }
+    #off {
+        width: 100px;
+        height: 39px;
+    }
+    .deal {
+        height: 90px;
+        width: 90px;
+    }
+    .fashion {
+        margin-left: 5px;
+        margin-top: 2%;
+    }
+    .more {
+        margin-left: -20%;
+        margin-top: 1%;
     }
 }
 @media screen and (max-width:580px){
@@ -552,6 +1187,62 @@ footer{
         font-size:10px;
         width:125px;
     }
+    .all{
+        font-size:17px;
+        margin-left:4%;
+    }
+    #off {
+        width: 90px;
+        height: 39px;
+    }
+    .frequent {
+        height: 175px;
+        width: 180px;
+        margin-top: 65px;
+        margin-left: 10%;
+    }
+    .subbrand {
+        height: 120px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .brands {
+        width: 120px;
+        height: 155px;
+        margin-top: 16%;
+    }
+    .fashion {
+        margin-left: 2px;
+        margin-top: 2%;
+    }
+
+}
+@media screen and (max-width:526px){
+    .brands {
+        width: 118px;
+        height: 155px;
+        margin-top: 16%;
+    }
+    .seemore {
+        position: relative;
+        color: rgb(10, 163, 223);
+        top: 2%;
+        left: 5%;
+    }
+    .fashion {
+        width: 120px;
+    }
+    #off {
+        width: 70px;
+        height: 39px;
+    }
+    .deal {
+        height: 90px;
+        width: 80px;
+    }
+    .option {
+        margin-left: 8%;
+    }
 }
 @media screen and (max-width:515px){
     #searchbar{
@@ -580,5 +1271,33 @@ footer{
     .location{
         font-size:10px;
         width:125px;
+    }
+    #deals {
+        font-size: 15px;
+    }
+    .option {
+        margin-left: 6%;
+    }
+    .deal {
+        height: 80px;
+        width: 80px;
+    }
+    .frequent {
+        height: 170px;
+        width: 170px;
+        margin-top: 46px;
+        margin-left: 10%;
+    }
+    .brands {
+        width: 110px;
+        height: 155px;
+        margin-top: 16%;
+    }
+    .fashion {
+        width: 114px;
+    }
+    .seemore{
+        top: 3%;
+        left: 5%;
     }
 }

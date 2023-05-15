@@ -1,6 +1,6 @@
 function uploadCoupon() {
     document.getElementById('coupon').style.visibility= 'visible';
-    document.getElementById('main').style.opacity='0.6';
+    document.getElementById('main').style.opacity='0.7';
 }
 function closecoupon() {
     document.getElementById('coupon').style.visibility= 'hidden';
@@ -54,7 +54,7 @@ function validateemail(){
 
 function signin(){
     document.getElementById('log').style.visibility = 'visible'
-    document.getElementById('main').style.visibility = '0.2'
+    document.getElementById('main').style.visibility = '0.6'
 }
 function logout(){
     document.getElementById('log').style.visibility = 'hidden'
