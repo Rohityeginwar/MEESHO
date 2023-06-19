@@ -1,0 +1,75 @@
+footer{
+    height:500px;
+    width:100%;
+    border:5px solid black;
+    margin-top:0%;
+    
+}
+.footheading{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.foot{
+    height:300px;
+    width:15%;
+    /* border:5px solid red; */
+    margin-left:9%;
+    margin-top:3%;
+    float:left;
+}
+#footemail{
+    height:20px;
+    width:150px;
+    border:1px solid black;
+    margin:3%;
+}
+#prime{
+    height:20px;
+    width:100px;
+    /* border:5px solid blue; */
+    background-color:black;
+    color:white;
+    margin:3%
+}
+.footimg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: -25%;
+    margin-right: 35%;
+    float: right;
+}
+#rights{
+    margin-left:1%;
+    height:50px;
+    width:20%;
+    /* border:5px solid red; */
+    float:left;
+    
+}
+#pay{
+    height:50px;
+    width:50%;
+    /* border:5px solid red; */
+    float:right;
+    position:relative;
+    left: -45px;
+    top: 65px;      
+}
+.credit{
+    float:right;
+    height:100%;
+    width:10%;
+    margin-left:5%;
+}
+#log{
+    z-index:100;
+    height: 390px;
+    width:50%;
+    margin-top:-40%;
+    margin-left:25%;
+    background-color:#d0c719;
+    visibility:hidden;
+    position:absolute;
+}
