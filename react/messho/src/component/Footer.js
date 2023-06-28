@@ -1,6 +1,18 @@
 import React from 'react';
 import './Footer.css'
+import './Header.css'
 const Footer = ()=>{
+
+    // window.onload = uploadCoupon()
+
+    // function uploadCoupon() {
+    //     document.getElementById('coupon').style.visibility= 'visible';
+    //     document.getElementById('main').style.opacity='0.7';
+    // }
+    // function closecoupon() {
+    //     document.getElementById('coupon').style.visibility= 'hidden';
+    //     document.getElementById('main').style.opacity = '1';
+    // }
     return(
         <>
             <footer>
@@ -40,9 +52,9 @@ const Footer = ()=>{
                             Subscription
                         </div>
                         <div>
-                            <img src="fb.png" alt="fb" className="footimg"/>
-                            <img src="insta.png" alt="insta" className="footimg"/>
-                            <img src="tweet.png" alt="tweet" className="footimg"/>
+                            <img src="/image/fb.png" alt="fb" className="footimg"/>
+                            <img src="/image/insta.png" alt="insta" className="footimg"/>
+                            <img src="/image/tweet.png" alt="tweet" className="footimg"/>
                         </div>
                     </div>
                 </div>
@@ -50,15 +62,19 @@ const Footer = ()=>{
                     <span>&copy;meesho. All Right Reserved.</span>
                 </div>
                 <div id="pay">
-                    <img src="visa.png" alt="visa" className="credit"/>
-                    <img src="Mastercard.png" alt="mastercard" className="credit"/>
-                    <img src="phonepe.png" alt="phonepe" className="credit"/>
-                    <img src="paypal.png" alt="paypal" className="credit"/>
-                    <img src="upi.png" alt="upi" className="credit"/>
+                    <img src="/image/visa.png" alt="visa" className="credit"/>
+                    <img src="/image/Mastercard.png" alt="mastercard" className="credit"/>
+                    <img src="/image/phonepe.png" alt="phonepe" className="credit"/>
+                    <img src="/image/paypal.png" alt="paypal" className="credit"/>
+                    <img src="/image/upi.png" alt="upi" className="credit"/>
                 </div>
-            </footer>       
+            </footer>    
+            <div id="coupon">
+            <button onClick={"closecoupon"}>&times;</button>
+            <img src="paylater.jpg" alt="pay" className="coupon"/>
+        </div>   
         </>
     )
 }
 
-export default Footer;
+export default Footer

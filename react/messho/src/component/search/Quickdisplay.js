@@ -10,12 +10,11 @@ const Quickdisplay = (props)=>{
 
                 return(
 
-                    <Link to={`/listing/${item.id}`} key={item.id}>
-                        
-                             <div className="category">
-                                <img src="https://i.ibb.co/swYvbCB/weddingdress.jpg" alt={item.category} className="category"/>
-                                <div className="names">{item.category}</div>
-                            </div>
+                    <Link to={`/listing/${item.id}`}>
+                        <div >
+                            <img src={item.img} alt={item.category} className="category"/>
+                            <div className="names">{item.category}</div>
+                        </div>
                     </Link>
                 )
             }))
@@ -32,7 +31,7 @@ const Quickdisplay = (props)=>{
                 <div className="all">Home & Kitchen</div>
             </div>
             <div id="location">
-            <img className="point" src="geo-alt.svg" alt="point"/> Add Delivery Location To get Extra Discount 
+            <img className="point" src="/image/geo-alt.svg" alt="point"/> Add Delivery Location To get Extra Discount 
             </div>
             <div id="category">
                {types(props)}
@@ -41,4 +40,4 @@ const Quickdisplay = (props)=>{
     )
 }
 
-export default Quickdisplay;
+export default Quickdisplay

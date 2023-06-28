@@ -1,14 +1,37 @@
-import React,{useState,useEffect} from 'react';
-import {link} from 'react-router-dom'
+import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Listingdisplay = (props)=>{
 
-    const renderdata = ({listdata}) =>{
-        if(listdata){
-            if(listdata.length >0){
-                return(
-                    <h1>data</h1>
-                )
+    const renderdata = ({listData}) =>{
+        if(listData){
+            if(listData.length > 0){
+                return listData.map((item)=>{
+                    return(
+                        <>
+                                <div className="image">
+                                    <img src={item.image} alt={item.product}/>
+                                </div>
+                                <div className="head">
+                                    <Link to={`/details?productId=${item.product_id}`}>
+                                        <div className="name">
+                                            <b>{item.product}</b>
+                                        </div>
+                                    </Link>
+                                    <div className="price">
+                                       <span>Price:</span> {item.price}
+                                    </div>
+                                    {/* <div className='label label-primary tags'>
+                                        <b>Size:{item.size}</b>
+                                    </div>
+                                    <div className='label label-info tags'>
+                                        <b>Color:{item.color}</b>
+                                    </div> */}
+                                </div>
+                                
+                        </>        
+                    )
+                })
             }
             else{
                 return(
@@ -18,7 +41,9 @@ const Listingdisplay = (props)=>{
         }
         else{
             return(
-                <h1>loding</h1>
+               <>
+                    <img src="/image/loader.gif" alt="loader"/>
+               </>
             )
 
         }
@@ -26,7 +51,11 @@ const Listingdisplay = (props)=>{
 
     return(
         <>
-            {renderdata(props)}
+            <div id="tiles">
+                <div className="tilecontainer">
+                    {renderdata(props)}
+                </div>
+            </div>
         </>
     )
 }
